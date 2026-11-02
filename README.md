@@ -11,7 +11,7 @@ An AgentDE extension: a widget spot at the bottom of the sidebar, a menu to pick
 
 ## Include it
 
-Clone this repo beside `agentde/`; it's in AgentDE's default `extensions.json`:
+It's in AgentDE's default `extensions.json`, so building AgentDE clones it beside `agentde/`:
 
 ```json
 { "package": "../agentde-widgets", "product": "AgentDEWidgets", "create": "WidgetsExtension()" }

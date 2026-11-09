@@ -14,7 +14,8 @@ An AgentDE extension: a widget spot at the bottom of the sidebar, a menu to pick
 It's in AgentDE's default `extensions.json`, so building AgentDE clones it beside `agentde/`:
 
 ```json
-{ "package": "../agentde-widgets", "product": "AgentDEWidgets", "create": "WidgetsExtension()" }
+{ "package": "../agentde-widgets", "repo": "https://github.com/AgentDE/agentde-widgets",
+  "product": "AgentDEWidgets", "create": "WidgetsExtension()" }
 ```
 
 ## Settings
@@ -28,7 +29,7 @@ Settings → Extensions → Widgets:
 
 ## Adding a widget
 
-From another extension: depend on `AgentDEWidgets`, conform to `WidgetProvider`, and return `WidgetDefinition`s. Without building anything: a JSON plugin. Both are in AgentDE's [docs/EXTENDING.md](../agentde/docs/EXTENDING.md#widgets).
+From another extension: depend on `AgentDEWidgets`, conform to `WidgetProvider`, and return `WidgetDefinition`s. Without building anything: a JSON plugin. Both are in AgentDE's [EXTENDING guide](https://agentde.github.io/agentde/EXTENDING.html#widgets).
 
 ## License
 
